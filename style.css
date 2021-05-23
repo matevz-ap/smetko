@@ -60,3 +60,11 @@ main {
     color: black;
     text-decoration: none;
 }
+
+.release {
+    color: white;
+
+    padding-left: 3rem;
+
+    text-decoration: none;
+}

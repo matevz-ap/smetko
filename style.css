@@ -47,11 +47,15 @@ html, body {
 }
 
 main {
-    margin-bottom: 1300px;
+    margin-bottom: 2600px;
 }
 .profile {
     height: 15vw;
     width: auto;
     border-radius: 50%;
     margin-bottom: 2rem;
+}
+
+h5 {
+    margin-top: 50px;
 }

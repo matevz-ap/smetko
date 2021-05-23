@@ -1,0 +1,41 @@
+h3 {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: italic;
+    color:snow;
+}
+#homeDesc {
+    font-family: Roboto;
+    font-weight: 900 !important;
+    color: snow;
+}
+#resDesc{
+    font-family: Roboto;
+    font-weight: lighter;
+}
+.content {
+    margin: 0 auto;
+    max-width: 40em;
+}
+.appImg {
+    height: 70vh;
+}
+.container-fluid {
+    height: 50vh;
+    margin-top: -10vh;
+    padding: 10vh;
+    -webkit-transform: skewY(5deg);
+    -moz-transform: skewY(5deg);
+    -ms-transform: skewY(5deg);
+    -o-transform: skewY(5deg);
+    transform: skewY(5deg);
+    background-color: #4caf50;
+  }
+  
+.container-fluid > .content {
+    -webkit-transform: skewY(-5deg);
+    -moz-transform: skewY(-5deg);
+    -ms-transform: skewY(-5deg);
+    -o-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+}

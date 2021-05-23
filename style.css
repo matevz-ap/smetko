@@ -21,7 +21,7 @@ html, body {
 }
 .content {
     margin: 0 auto;
-    max-width: 40em;
+    max-width: 50em;
 }
 .appImg {
     height: 70vh;

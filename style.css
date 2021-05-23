@@ -1,17 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 h3 {
-    font-family: Roboto;
-    font-weight: 700;
     font-style: italic;
+    font-weight: bold !important;
     color:snow;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 #homeDesc {
-    font-family: Roboto;
-    font-weight: 900 !important;
+    font-family: 'Roboto', sans-serif;
     color: snow;
 }
-#resDesc{
-    font-family: Roboto;
-    font-weight: lighter;
+.txt{
+    font-family: 'Roboto', sans-serif;
+}
+.sub {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 .content {
     margin: 0 auto;
@@ -41,10 +47,11 @@ h3 {
 }
 
 main {
-    margin-bottom: 55rem;
+    margin-bottom: 70rem;
 }
-
 .profile {
+    height: 15vw;
+    width: auto;
     border-radius: 50%;
     margin-bottom: 2rem;
 }
